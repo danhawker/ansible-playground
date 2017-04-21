@@ -1,0 +1,7 @@
+[gerrit]
+host=ansible-gerrit.cambridge.arm.com
+port=29418
+project=RedHatPlayground
+defaultremote=gerrit
+defaultbranch=master
+
