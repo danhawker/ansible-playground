@@ -2,6 +2,8 @@
 # Playbook to prepare hosts for Ansible
 
 - name: Prepare Hosts for Ansible
+  hosts: all
+  gather_facts: no
   tasks:
   # Create Ansible Group
   - name: Create Ansible Group
