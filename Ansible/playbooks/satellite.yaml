@@ -1,0 +1,6 @@
+---
+# Subscribe a host to satellite
+- name: Subscribe {{ ansible_hostname }} to MI Satellite
+  roles:
+    - satellite
+     
