@@ -5,6 +5,6 @@
   hosts: all
   gather_facts: no
   tasks:
-  - name: Subscribe {{ ansible_hostname }} to MI Satellite
+  - name: "Subscribe {{ ansible_hostname }} to MI Satellite"
     roles:
       - satellite
