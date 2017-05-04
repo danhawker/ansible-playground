@@ -3,7 +3,5 @@
 
 - name: Subscribe Host to Satellite
   hosts: all
-  tasks:
-  - name: Subscribe Host to MI Satellite
-    roles:
-      - satellite
+  roles:
+    - satellite
